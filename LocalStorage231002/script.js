@@ -11,7 +11,7 @@ function kiir() {
     szavak.forEach(szo => {
         list += `<li>
             <div>
-                <h5>${szo}</h5><p>X</p>
+                <h5>${szo}</h5><p onclick="torles">X</p>
             </div>
         </li>`
     });
